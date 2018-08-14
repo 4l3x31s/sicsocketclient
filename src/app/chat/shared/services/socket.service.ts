@@ -5,7 +5,7 @@ import { Observable } from 'rxjs/index';
 import * as socketIo from 'socket.io-client';
 import {Event} from '../model/event';
 
-const SERVER_URL = 'http://localhost:9900';
+const SERVER_URL = 'https://socketiosic.herokuapp.com/';
 
 @Injectable()
 export class SocketService {
